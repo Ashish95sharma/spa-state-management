@@ -8,7 +8,7 @@ export function createDynamicStore<State extends AnyState = AnyState>(
 	const reducerManager = createReducerManager(initialReducers);
 	let currentState: AnyState = { ...preloadedState } as AnyState;
 	let isDispatching = false;
-	const listeners = new Set<() => void>();
+	const listeners = new Set<() => void>(); 
 	let destroyed = false;
 
 	function assertNotDestroyed() {
