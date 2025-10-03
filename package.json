@@ -1,6 +1,6 @@
 {
   "name": "dynamic-mfe-state",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Dynamic, reducer-injection state manager for microfrontends (framework-agnostic).",
   "license": "MIT",
   "type": "module",
